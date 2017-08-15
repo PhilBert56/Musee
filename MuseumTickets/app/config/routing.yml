@@ -1,0 +1,7 @@
+museum_ticket:
+    resource: "@MuseumTicketBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
